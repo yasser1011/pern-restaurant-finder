@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 1225px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
