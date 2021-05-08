@@ -146,7 +146,7 @@ export default function Register({ history }) {
           </Button>
           <Grid container justify="flex-end">
             <Grid item>
-              <Link to="/login">Don't have an account? Sign Up</Link>
+              <Link to="/login">Already have an account? Sign In</Link>
             </Grid>
           </Grid>
         </form>
